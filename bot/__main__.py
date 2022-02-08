@@ -199,9 +199,9 @@ helps = f'''<i><b>This button can helping you to use this bot</b></i>'''
 
 def bot_help(update, context):
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Main Menu", f"https://telegra.ph/{help}")
-    buttons.buildbutton("Advance cmd", f"https://telegra.ph/{help_tgh}")
-    buttons.buildbutton("Notes Feature", f"https://telegra.ph/Magneto-Python-Aria---Custom-Filename-Examples-01-20")
+    buttons.buildbutton("Main Menu", f"https://telegra.ph/Eunha-Mirror-Help-02-08-31")
+    buttons.buildbutton("Advanced", f"https://telegra.ph/Tech-Mirror-Help-Advanced-02-08")
+    buttons.buildbutton("unzip password files Feature", f"https://telegra.ph/Filename-and-unzip-password-protected-files-Examples-02-08")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(1))
     sendMarkup(helps, context.bot, update, reply_markup)
 
